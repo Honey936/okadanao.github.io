@@ -1,0 +1,17 @@
+.illustrations
+  &__main
+    padding 7rem 3rem 6rem 8rem
+    &__block
+      &__item
+        margin-bottom 3rem
+
++ls()
+  .illustrations
+    &__main
+      padding 12rem 5rem 12rem 14rem
+      &__block
+        &__item
+          width calc((100vw - 5rem - 14rem - 3rem - 2rem) / 2)
+          &:nth-child(odd)
+            float left
+            margin-right 3rem

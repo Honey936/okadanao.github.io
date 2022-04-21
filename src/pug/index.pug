@@ -6,35 +6,56 @@ block vars
   - var page = pages[key]
 
 block contents
-  // data-horizontal="1" data-speed-x="30"
   div(id="app" class="para")
     div(class="luxy-el para__01 progressive" data-speed-y="40")
       img(class="preview lazy" data-src=imgPath+"/"+key+"/man.JPG" src=imgPath+"/"+key+"/man-dummy.JPG")
     div(class="luxy-el para__02")
       section(class="lp__about")
         h2.ttl--2 ABOUT
-        p.lp__about__txt okadanaoです.<br>創作が大好きです.<br>webサイト/アプリ制作, <br>描画, 写真撮影, 謎解き制作<br>などをしています.
+        p.lp__about__txt okadanaoです<br>自分の手で何かしら<br>作品をつくることが好きです
         p.lp__about__txt 
           span.lp__about__txt__h webサイト/アプリ制作
-          | <br>―<br>2019年頃から独学しています.<br>デザインに拘るのが楽しいです.
+          | <br>―<br>2019年頃に始めました<br>つくりたいものが頭に浮かんだときに<br>調べながら地道につくっています<br>デザインに拘るのが楽しいです
         p.lp__about__txt
           span.lp__about__txt__h 描画
-          | <br>―<br>ゼンタングルを取り入れた,<br>細かい絵を描くのが好きです.
+          | <br>―<br>ゼンタングルを取り入れた<br>細かい絵を描くのが好きです
         p.lp__about__txt
           span.lp__about__txt__h 写真撮影
-          | <br>―<br>中高写真部でした.<br>夕焼けの撮影が１番好きです.
+          | <br>―<br>中高写真部でした<br>夕焼けの撮影が一番好きです
         p.lp__about__txt
           span.lp__about__txt__h 謎解き制作
-          | <br>―<br>2019年2月に開設した,<br>謎投稿Twitterアカウントがあります.<br>自作の謎解きでのお気に入りは,<br>LINE謎「てぬき」です.<br>謎解き制作団体でも活動しています.
+          | <br>―<br>2019年2月に謎投稿用Twitterアカウント<br>「<a href="https://twitter.com/nazotoki_riddle">謎解き-RIDDLE</a>」を開設しました<br>自作の謎解きでのお気に入りは<br>LINE謎「<a href="https://twitter.com/TM_TryAngle/status/1373473769885376516?s=20&t=JObkTF6DdOHQSGylU56msg">てぬき</a>」です<br>謎解き制作団体 <a href="https://twitter.com/opunazotoki">F-enigma</a> と <a href="https://twitter.com/tryangle_nazo">TryAngle</a><br>のメンバーとしても活動しています
+        p.lp__about__txt
+          span.lp__about__txt__h 好きなWebサイト
+          | <br>―<br><a href="https://everynoise.com/engenremap.html">Every Noise at Once</a>, <a href="https://openprocessing.org/">OpenProcessing</a>, <a href="https://0414.works/kachera/">欠片</a>
+        p.lp__about__txt
+          span.lp__about__txt__h 好きなツール/サービス
+          | <br>―<br>Atom, ibisPaint, Mouse Dictionary,<br>Notion, Wolfram Alpha
+          
       section(class="lp__about")
         h2.ttl--2 SKILL
         p.lp__about__txt
-          span.lp__about__txt__h markup & programming
-          | <br>―<br> HTML / JavaScript / Pug / Flask<br>CSS / Sass / stylus<br>C# / Python / Prolog / R
+          span.lp__about__txt__h Pug / stylus / HTML / CSS
+          | <br>―<br>Webサイト・Webアプリ制作や<br>ホームページのメンテナンス等で<br>日常的に使っています
         p.lp__about__txt
-          span.lp__about__txt__h tools 
-          | <br>―<br>Git / GitHub / Bitbucket<br>Git Bash / Anaconda Powershell Prompt<br>Atom / Visual Studio / Prepros<br>Gradient / Google Colaboratory<br>FFFTP / Google Search Console<br>Heroku / PythonAnywhere<br>ibisPaint / Inkscape
-          
+          span.lp__about__txt__h JavaScript / jQuery
+          | <br>―<br>Webサイト・Webアプリ制作において<br>必要に応じて使用しています
+        p.lp__about__txt
+          span.lp__about__txt__h Python + Flask
+          | <br>―<br>Webアプリ制作の際に<br>使用しています
+        p.lp__about__txt
+          span.lp__about__txt__h Python + PyTorch
+          | <br>―<br>自然言語処理（文章生成等）で<br>使用しています
+        p.lp__about__txt
+          span.lp__about__txt__h C# / Python
+          | <br>―<br>大学の授業でよく使っていました
+        p.lp__about__txt
+          span.lp__about__txt__h Prolog / R / Processing / Java
+          | <br>―<br>大学の授業で使ったことがあります
+        p.lp__about__txt
+          span.lp__about__txt__h Git / Git Bash / GitHub / Bitbucket
+          | <br>―<br>ソースコード管理に使っています
+
 block script
   script(src=jsPath+"/luxy.min.js")
   script.
